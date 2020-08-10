@@ -4,7 +4,7 @@ build:
             dependencies:
                 before:
                     - composer require --dev johnpbloch/wordpress
-                    - composer require --dev pop-schema/posts
+                    - composer require --dev pop-schema/customposts
             project_setup:
                 override: true
             tests:
