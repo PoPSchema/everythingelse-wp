@@ -1,4 +1,7 @@
 services:
-    custompost_type_api:
-        class: \PoPSchema\EverythingElseWP\Conditional\CustomPosts\TypeAPIs\CustomPostTypeAPI
+    _defaults:
         public: true
+
+    PoPSchema\CustomPosts\TypeAPIs\CustomPostTypeAPIInterface:
+        class: \PoPSchema\EverythingElseWP\Conditional\CustomPosts\TypeAPIs\CustomPostTypeAPI
+
